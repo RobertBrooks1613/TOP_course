@@ -5,10 +5,10 @@ Note some large project may be in their own repo
 My planning Approach.
 _______________________________________________________________________________________________________________________________________
 
-1) Planning Your Approach to Completing TOP
+1) Planning My Approach to Completing TOP
 Step 1: Set Clear Goals
 
-    Decide Your Path: Choose between the Full Stack JavaScript or Full Stack Ruby on Rails path after completing the Foundations course.
+    Decide My Path: Choose between the Full Stack JavaScript or Full Stack Ruby on Rails path after completing the Foundations course.
     Define a Timeline: Based on your available hours per week:
         10-15 hours/week: Aim for ~12 months.
         20-30 hours/week: Aim for ~6-9 months.
@@ -42,15 +42,15 @@ Step 5: Build Strong Projects
         A custom React app or SPA (Single Page Application).
 
 2) Strategies for Job Placement After Completion
-Step 1: Build Your Portfolio
+Step 1: Build My Portfolio
 
-    Include 3-5 solid projects showcasing your skills.
+    Include 3-5 solid projects showcasing my skills.
     Use GitHub to host code and deploy apps using platforms like Netlify, Vercel, or Heroku.
     Focus on:
         Mobile-responsive designs.
         Clear READMEs (highlighting the tech stack, features, and challenges).
 
-Step 2: Update Your Resume
+Step 2: Update My Resume
 
     Highlight skills learned in TOP (HTML, CSS, JavaScript, Git, Node.js, React, etc.).
     Emphasize projects with quantifiable achievements (e.g., “Developed a responsive e-commerce site with 3K monthly visitors”).
