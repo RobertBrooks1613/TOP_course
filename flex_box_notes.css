@@ -1,0 +1,109 @@
+.flex-container {
+    height: 600px;
+    width: 500px;
+    border: solid 4px black;
+    display: flex;
+    /* or display: inline-flex; for inline flex containers */
+  
+    /* Main Axis Direction */
+    flex-direction: row; /* default: left to right */
+    /* flex-direction: row-reverse; */ /* right to left */
+    /* flex-direction: column; */ /* top to bottom */
+    /* flex-direction: column-reverse; */ /* bottom to top */
+  
+    /* Wrapping */
+    flex-wrap: nowrap; /* default: single-line */
+    /* flex-wrap: wrap; */ /* multi-line, top to bottom */
+    /* flex-wrap: wrap-reverse; */ /* multi-line, bottom to top */
+  
+    /* Shorthand for flex-direction and flex-wrap */
+    /* flex-flow: row nowrap; */ /* default */
+  
+    /* Main Axis Alignment */
+    justify-content: flex-start; /* default */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+  
+    /* Cross Axis Alignment */
+    align-items: stretch; /* default */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+  
+    /* Multi-line Cross Axis Alignment */
+    align-content: stretch; /* default */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+
+    gap: 8px; /* Adds 8px space between all flex items */
+    /* row-gap: 8px; */ /* Adds 8px space between rows */
+    /* column-gap: 8px; */ /* Adds 8px space between columns */
+  
+    /* Note: 'gap' is a shorthand for row-gap and column-gap */
+    /* gap: 10px 20px; */ /* 10px between rows, 20px between columns */
+  }
+  
+  .flex-item {
+    border: solid 3px blue;
+
+    /* Ability to grow if space available */
+    /* flex-grow: 0; */ /*default: don't grow */
+    flex-grow: 1; /* grow to fill available space */
+  
+    /* Ability to shrink if needed */
+    flex-shrink: 1; /* default: can shrink */
+    /* flex-shrink: 0; */ /* don't shrink */
+  
+    /* Default size before distribution of space */
+    flex-basis: auto; /* default: size based on content */
+    /* flex-basis: 0; */ /* no initial main size */
+    /* flex-basis: 25%; */ /* percentage of container */
+    /* flex-basis: 200px; */ /* specific size */
+  
+    /* Shorthand for flex-grow, flex-shrink, and flex-basis */
+    /* flex: 0 1 auto; */ /* default */
+    /* flex: 1; */ /* same as flex: 1 1 0% */
+    /* flex: auto; */ /* same as flex: 1 1 auto */
+    /* flex: none; */ /* same as flex: 0 0 auto */
+  
+    /* Self Alignment (overrides align-items) */
+    align-self: auto; /* default: follow container's align-items */
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    /* align-self: center; */
+    /* align-self: baseline; */
+    /* align-self: stretch; */
+  
+    /* Control order of items */
+    order: 0; /* default */
+    /* order: 1; */ /* appears later in the layout */
+    /* order: -1; */ /* appears earlier in the layout */
+  }
+
+  /* 
+  
+  Flex Container Properties:
+  display: flex or inline-flex
+  flex-direction: Controls the main axis
+  flex-wrap: Handles wrapping of items
+  flex-flow: Shorthand for direction and wrap
+  justify-content: Aligns items along the main axis
+  align-items: Aligns items along the cross axis
+  align-content: Aligns multiple lines along the cross axis
+  Flex Item Properties:
+  flex-grow: Ability to grow
+  flex-shrink: Ability to shrink
+  flex-basis: Default size before space distribution
+  flex: Shorthand for grow, shrink, and basis
+  align-self: Individual cross-axis alignment
+  order: Controls the order of items in the layout
+  Each property is accompanied by its default value and common alternatives, with comments explaining their effects. This comprehensive overview should help in understanding and utilizing the full power of flexbox layouts.
+  
+*/  
